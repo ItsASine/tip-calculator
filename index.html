@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+</head>
+<body>
+<!-- TODO: <style> -->
+<h1>Tip Calculator</h1>
+
+<form>
+    <h2>Service</h2>
+    <input type="radio" id="okay" name="service" value="okay" checked>
+    <label for="okay">Okay</label>
+    <input type="radio" id="good" name="service" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="great" name="service" value="great">
+    <label for="great">Great</label>
+    <h2>Receipt Total</h2>
+    <input type="text" id="bill" title="Bill Amount">
+    <input type="submit" id="calculate" value="Calculate">
+</form>
+
+<hr/>
+
+<h2>Tip</h2>
+<input type="text" id="tip" title="Calculated Tip Amount" disabled="disabled">
+
+<h2>Total</h2>
+<input type="text" id="total" title="Calculated Total Amount" disabled="disabled">
+
+<hr/>
+
+<script src="main.js"></script>
+</body>
+</html>
